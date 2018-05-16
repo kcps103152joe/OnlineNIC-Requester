@@ -14,10 +14,10 @@ OnlineNIC onlincnic = new OnlineNIC();  // Creates an instance of requester Obje
 
 Set parameters for connection.
 ```sh
-onlincnic.host = "www.onlinenic.com";   // Connection host.         type: String
-onlincnic.port = 30009;                 // Connection port.         type: Int
-onlincnic.user = 123456;                // OnlineNIC User ID.       type: Int
-onlincnic.pass = "pass123";             // OnlineNIC User Password. type: String
+onlincnic.host = "www.onlinenic.com";   // Connection host.
+onlincnic.port = 30009;                 // Connection port.
+onlincnic.user = 123456;                // OnlineNIC User ID.
+onlincnic.pass = "pass123";             // OnlineNIC User Password.
 ```
 
 Or simply set the config when create instance.
