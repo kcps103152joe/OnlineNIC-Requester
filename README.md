@@ -2,8 +2,8 @@
 OnlineNIC API Simply Requester In C#
 
 ## Introduction
-Language: C#
-Namespace: OnlineNIC_API
+* Language: C#
+* Namespace: OnlineNIC_API
 
 
 ## Getting Started
@@ -38,9 +38,9 @@ string[][] check = new string[][] {                     //  Create a string arra
 };
 onlincnic.request("domain", "CheckDomain", check);      //  Request to OnlineNIC API
 ```
-Using request method, there are three parameters should included, namely `category`, `action` and `params`.
-Each `params` string array should contain two item, `name` and `value`.\s
-Detail can see in [document](http://218.5.81.149/api/demo/3.x/en/?_r=/domain/checkDomain) of OnlineNIC API.
+* Using request method, there are three parameters should included, namely `category`, `action` and `params`.
+* Each `params` string array should contain two item, `name` and `value`.
+* Detail can see in [document](http://218.5.81.149/api/demo/3.x/en/?_r=/domain/checkDomain) of OnlineNIC API.
 
 
 
