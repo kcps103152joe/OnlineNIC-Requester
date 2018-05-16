@@ -63,7 +63,7 @@ using OnlineNIC_API;
 
 namespace Program{
     public class program{
-        protected void Requester{
+        protected void Requester(){
             OnlineNIC onlincnic = new OnlineNIC() {
                         host = "www.onlinenic.com",
                         port = 30009,
