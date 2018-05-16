@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Author:          Joe Chan
  * Module:          OnlineNIC API Requester
  * Version:         1.0.0
