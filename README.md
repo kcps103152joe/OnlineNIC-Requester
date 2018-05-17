@@ -74,25 +74,25 @@ namespace Program{
             /** 
              * Login
              */
-            string[][] login = new string[][] { };                  //  Create a string array for parameters
-            onlincnic.request("client", "Login", login);            //  Request to OnlineNIC API
+            string[][] login = new string[][] { };                  // Create a string array for parameters
+            onlincnic.request("client", "Login", login);            // Request to OnlineNIC API
             string response = onlinenic.lastRes;                    // Get response of "Login" request
             
             /** 
              * Check Domain
              */
-            string[][] check = new string[][] {                     //  Create a string array for parameters
+            string[][] check = new string[][] {                     // Create a string array for parameters
                 new string[] { "domaintype", "0" },
                 new string[] { "domain", "abc.com" }
             };
-            onlincnic.request("domain", "CheckDomain", check);      //  Request to OnlineNIC API
+            onlincnic.request("domain", "CheckDomain", check);      // Request to OnlineNIC API
             string response = onlinenic.lastRes;                    // Get response of "Check Domain" request
             
             /** 
              * Logout
              */
-            string[][] logout = new string[][] { };                 //  Create a string array for parameters
-            onlincnic.request("client", "Logout", logout);          //  Request to OnlineNIC API
+            string[][] logout = new string[][] { };                 // Create a string array for parameters
+            onlincnic.request("client", "Logout", logout);          // Request to OnlineNIC API
             string response = onlinenic.lastRes;                    // Get response of "Logout" request
         }
     }
